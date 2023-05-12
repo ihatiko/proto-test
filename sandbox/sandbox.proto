@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package sandbox;
+option go_package = ".;sandbox";
+
+message HelloWorld {
+  string Value = 1;
+}
